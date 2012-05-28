@@ -3,7 +3,7 @@ This project involves following phases
 ===================================================================================================================
 |    Phase                               |     Deadline         |                                                 |
 ===================================================================================================================
-1. Lexical Ananlysis                          05/29/2012
+1. Lexical Analysis                          05/29/2012
 2. Parsing and parse tree generation          05/31/2012
 3. Abstract syntax tree                       06/02/2012
 4. Semantic Analysis                          06/04/2012
