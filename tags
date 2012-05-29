@@ -1,0 +1,66 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+FALSE	lexer.c	/^	TRUE, FALSE$/;"	e	enum:_bool_t	file:
+KEY_TOKENS_SIZE	lexer.h	/^int KEY_TOKENS_SIZE;$/;"	v
+LEXER_H	lexer.h	6;"	d
+TK_ASSIGN	lexer.h	/^	TK_ASSIGN,$/;"	e	enum:__token_type_t
+TK_BLOCK	lexer.h	/^	TK_BLOCK,$/;"	e	enum:__token_type_t
+TK_COLON	lexer.h	/^	TK_COLON,$/;"	e	enum:__token_type_t
+TK_COMMA	lexer.h	/^	TK_COMMA,$/;"	e	enum:__token_type_t
+TK_EQ	lexer.h	/^	TK_EQ,$/;"	e	enum:__token_type_t
+TK_ERROR	lexer.h	/^	TK_ERROR$/;"	e	enum:__token_type_t
+TK_GE	lexer.h	/^	TK_GE,$/;"	e	enum:__token_type_t
+TK_GT	lexer.h	/^	TK_GT,$/;"	e	enum:__token_type_t
+TK_HOOK	lexer.h	/^	TK_HOOK,$/;"	e	enum:__token_type_t
+TK_ID	lexer.h	/^	TK_ID,$/;"	e	enum:__token_type_t
+TK_INT	lexer.h	/^	TK_INT,$/;"	e	enum:__token_type_t
+TK_KEY_BREAK	lexer.h	/^	TK_KEY_BREAK,$/;"	e	enum:__token_type_t
+TK_KEY_DO	lexer.h	/^	TK_KEY_DO,$/;"	e	enum:__token_type_t
+TK_KEY_ELSE	lexer.h	/^	TK_KEY_ELSE,$/;"	e	enum:__token_type_t
+TK_KEY_END	lexer.h	/^	TK_KEY_END,$/;"	e	enum:__token_type_t
+TK_KEY_EXIT	lexer.h	/^	TK_KEY_EXIT,$/;"	e	enum:__token_type_t
+TK_KEY_FA	lexer.h	/^	TK_KEY_FA,$/;"	e	enum:__token_type_t
+TK_KEY_FALSE	lexer.h	/^	TK_KEY_FALSE,$/;"	e	enum:__token_type_t
+TK_KEY_IF	lexer.h	/^	TK_KEY_IF,$/;"	e	enum:__token_type_t
+TK_KEY_PROC	lexer.h	/^	TK_KEY_PROC,$/;"	e	enum:__token_type_t
+TK_KEY_READ	lexer.h	/^	TK_KEY_READ,$/;"	e	enum:__token_type_t
+TK_KEY_RETURN	lexer.h	/^	TK_KEY_RETURN,$/;"	e	enum:__token_type_t
+TK_KEY_TRUE	lexer.h	/^	TK_KEY_TRUE,$/;"	e	enum:__token_type_t
+TK_KEY_VAR	lexer.h	/^        TK_KEY_VAR,$/;"	e	enum:__token_type_t
+TK_KEY_WRITE	lexer.h	/^	TK_KEY_WRITE,$/;"	e	enum:__token_type_t
+TK_KEY_WRITES	lexer.h	/^	TK_KEY_WRITES,$/;"	e	enum:__token_type_t
+TK_LBRACKET	lexer.h	/^	TK_LBRACKET,$/;"	e	enum:__token_type_t
+TK_LE	lexer.h	/^	TK_LE,$/;"	e	enum:__token_type_t
+TK_LPAREN	lexer.h	/^	TK_LPAREN,$/;"	e	enum:__token_type_t
+TK_LT	lexer.h	/^	TK_LT,$/;"	e	enum:__token_type_t
+TK_MINUS	lexer.h	/^	TK_MINUS,$/;"	e	enum:__token_type_t
+TK_MOD	lexer.h	/^	TK_MOD,$/;"	e	enum:__token_type_t
+TK_NEQ	lexer.h	/^	TK_NEQ,$/;"	e	enum:__token_type_t
+TK_PLUS	lexer.h	/^	TK_PLUS,$/;"	e	enum:__token_type_t
+TK_RBRACKET	lexer.h	/^	TK_RBRACKET,$/;"	e	enum:__token_type_t
+TK_RPAREN	lexer.h	/^	TK_RPAREN,$/;"	e	enum:__token_type_t
+TK_SEMICOLON	lexer.h	/^	TK_SEMICOLON,$/;"	e	enum:__token_type_t
+TK_SLASH	lexer.h	/^	TK_SLASH,$/;"	e	enum:__token_type_t
+TK_STAR	lexer.h	/^	TK_STAR,$/;"	e	enum:__token_type_t
+TK_STR	lexer.h	/^	TK_STR,$/;"	e	enum:__token_type_t
+TK_THEN	lexer.h	/^	TK_THEN,$/;"	e	enum:__token_type_t
+TRUE	lexer.c	/^	TRUE, FALSE$/;"	e	enum:_bool_t	file:
+__token_t	lexer.h	/^struct __token_t {$/;"	s
+__token_type_t	lexer.h	/^enum __token_type_t{$/;"	g
+_bool_t	lexer.c	/^enum _bool_t {$/;"	g	file:
+_is_keyword_token	lexer.c	/^token_t* _is_keyword_token(char* lexeme) {$/;"	f
+bool_t	lexer.c	/^typedef enum _bool_t bool_t;$/;"	t	typeref:enum:_bool_t	file:
+fp	lexer.c	/^FILE* fp = NULL;$/;"	v
+get_next_token	lexer.c	/^token_t* get_next_token() {$/;"	f
+initialzie_lexer	lexer.c	/^void initialzie_lexer(char* filename) {$/;"	f
+key_tokens	lexer.c	/^token_t key_tokens[]= {$/;"	v
+lexeme	lexer.h	/^   char* lexeme;         \/*should end with null character*\/$/;"	m	struct:__token_t
+main	driver.c	/^int main(int argc, char* argv[]) {$/;"	f
+test_lexer	driver.c	/^void test_lexer(char* filename) {$/;"	f
+token_t	lexer.h	/^typedef struct __token_t token_t;$/;"	t	typeref:struct:__token_t
+token_type_t	lexer.h	/^typedef enum __token_type_t token_type_t;$/;"	t	typeref:enum:__token_type_t
+type	lexer.h	/^   token_type_t type;   $/;"	m	struct:__token_t

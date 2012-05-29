@@ -3,7 +3,7 @@
  *
  */
 #ifndef LEXER_H
-#define LEXER_H
+#define LEXER_H 1
 
 /*All the token types*/
 enum __token_type_t{
@@ -23,7 +23,7 @@ enum __token_type_t{
 	TK_BLOCK,
 	TK_KEY_ELSE,
 	TK_THEN,
-	TK_PROC,
+	TK_KEY_PROC,
 	TK_LPAREN,
 	TK_RPAREN,
 	TK_KEY_END,
@@ -46,7 +46,8 @@ enum __token_type_t{
 	TK_GT,
 	TK_LT,
 	TK_LE,
-	TK_GE
+	TK_GE,
+	TK_ERROR
 };
 
 typedef enum __token_type_t token_type_t;
@@ -55,14 +56,20 @@ typedef enum __token_type_t token_type_t;
  * Token definition
  */
 struct __token_t {
-   char* lexeme;
-   token_type_t type;
+   char* lexeme;         /*should end with null character*/
+   token_type_t type;   
 };
 
 typedef struct __token_t token_t;
 
+/*size of key tokens*/
+int KEY_TOKENS_SIZE;
+
+/*This method initializes filename*/
+void initialize_lexer(char* filename);
+
 /*This method fetches the next token*/
-token_t get_next_token();
+token_t* get_next_token();
 
 /*This method gets the current line no*/
 int get_line_no();
