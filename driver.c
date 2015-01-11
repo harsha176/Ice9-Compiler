@@ -27,7 +27,7 @@ void test_lexer(char* filename) {
 int main(int argc, char* argv[]) {
 
     if(argc != 2) {
-	    fprintf(stdout, "Usage %s <input_file>\n");
+	    fprintf(stdout, "Usage %s <input_file>\n", argv[0]);
 	    return 0;
     }	    
 
